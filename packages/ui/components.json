@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "base-lyra",
+  "rsc": false,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "src/styles/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "iconLibrary": "lucide",
+  "aliases": {
+    "components": "@ukulele-code-gen/ui/components",
+    "utils": "@ukulele-code-gen/ui/lib/utils",
+    "hooks": "@ukulele-code-gen/ui/hooks",
+    "lib": "@ukulele-code-gen/ui/lib",
+    "ui": "@ukulele-code-gen/ui/components"
+  },
+  "menuColor": "default",
+  "menuAccent": "subtle",
+  "registries": {}
+}

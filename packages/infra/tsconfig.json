@@ -1,0 +1,4 @@
+{
+  "extends": "@ukulele-code-gen/config/tsconfig.base.json",
+  "include": ["alchemy.run.ts"]
+}

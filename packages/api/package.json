@@ -1,0 +1,22 @@
+{
+  "name": "@ukulele-code-gen/api",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*.ts"
+  },
+  "scripts": {
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@trpc/client": "catalog:",
+    "@trpc/server": "catalog:",
+    "@ukulele-code-gen/auth": "workspace:*",
+    "@ukulele-code-gen/db": "workspace:*",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@ukulele-code-gen/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}

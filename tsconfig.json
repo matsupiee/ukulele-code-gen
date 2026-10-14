@@ -1,0 +1,3 @@
+{
+  "extends": "@ukulele-code-gen/config/tsconfig.base.json"
+}
